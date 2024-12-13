@@ -4,7 +4,7 @@ from collections import Counter
 test_l1 = [3, 4, 2, 1, 3, 3]
 test_l2 = [4, 3, 5, 3, 9, 3]
 
-with open("lists.txt", "r") as lists_data:
+with open("data.txt", "r") as lists_data:
     l1 = []
     l2 = []
     for line in lists_data: 
