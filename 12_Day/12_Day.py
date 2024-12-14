@@ -1,6 +1,6 @@
 import numpy as np
 
-with open("Advent_of_Code_2024/12_Day/data.txt", "r") as lists_data:
+with open("data.txt", "r") as lists_data:
     data = []
     while True:
         line = lists_data.readline().strip('\n')
